@@ -1,0 +1,24 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="actionBarBackground">#457EB1</color>
+    <color name="actionBarBorder">#255F95</color>
+    <color name="list_text_color">#5b5b5b</color>
+    <color name="background">#000000</color><!-- #E4F3F5 -->
+    <color name="done_button_background">#398355</color>
+    <color name="divider_color">#959595</color>
+    <color name="com_incpad_ui_incpad_login_button">#40CCCCCC</color>
+    <color name="com_incpad_ui_incpad_login_button_push">#30CCCCCC</color>
+    <color name="com_incpad_ui_incpad_login_button_focus">#35CCCCCC</color>
+    <color name="com_incpad_ui_incpad_login_help_button_label">#E0E0E0</color>
+    <color name="com_incpad_ui_incpad_login_help_button_label_push">#AAAAAA</color>
+    <color name="com_incpad_ui_incpad_login_help_button_label_focus">#CCCCCC</color>
+    <color name="com_incpad_ui_incpad_login_text_hint">#AAAAAA</color>
+    <color name="com_incpad_ui_incpad_login_display_text">@android:color/white</color>
+    <color name="com_incpad_ui_facebook_login_button">#3B5998</color>
+    <color name="com_incpad_ui_facebook_login_button_push">#2E4677</color>
+    <color name="com_incpad_ui_facebook_login_button_focus">#304F8B</color>
+    <color name="com_incpad_ui_twitter_login_button">#2DAAE2</color>
+    <color name="com_incpad_ui_twitter_login_button_push">#2588B5</color>
+    <color name="com_incpad_ui_twitter_login_button_focus">#2788BE</color>
+    <color name="black">#000000</color>
+</resources>

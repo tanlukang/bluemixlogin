@@ -1,0 +1,77 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+    
+    <style name="TitleTextStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:typeface">sans</item>
+	    <item name="android:textSize">32sp</item>
+	    <item name="android:background">@color/actionBarBackground</item>
+	</style>
+  
+    <style name="ListView" parent="@android:style/Widget.ListView">
+	    <item name="android:cacheColorHint">@android:color/transparent</item>
+	    <item name="android:typeface">sans</item>
+	    <item name="android:textSize">52px</item>
+	    <item name="android:textColor">@color/list_text_color</item>
+	    <item name="android:divider">@android:color/transparent</item>
+	    <item name="android:dividerHeight">0dp</item>
+	</style>
+	<style name="incpadLoginUI" />
+
+    <style name="incpadLoginUI.Button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">
+            @drawable/com_incpad_ui_incpad_login_button_background_selector
+        </item>
+        <item name="android:textColor">@color/com_incpad_ui_incpad_login_display_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="incpadLoginUI.Button.ThirdPartyLogin" parent="incpadLoginUI.Button">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">24dp</item>
+    </style>
+
+    <style name="incpadLoginUI.HelpButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/com_incpad_ui_incpad_login_help_button_label_selector</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="incpadLoginUI.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/com_incpad_ui_incpad_login_display_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="incpadLoginUI.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>
